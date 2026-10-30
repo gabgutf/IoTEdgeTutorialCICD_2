@@ -39,7 +39,7 @@ stages:
         curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
         python3.9 get-pip.py
 
-        python3.9 -m pip install -U iotedgedev pyOpenSSL==22.0.0 urrllib3=1.22 requests
+        python3.9 -m pip install -U iotedgedev pyOpenSSL==22.0.0 urrllib3==1.22 requests
       displayName: Install Python 3.9 and iotedgedev
 
     - task: AzureIoTEdge@2
